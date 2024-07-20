@@ -26,5 +26,7 @@ public class CreateDriverSession {
         caps.setCapability("appActivity", "io.appium.android.apis.accessibility.CustomViewAccessibilityActivity");
         URL url = new URL("http://127.0.0.1:4723");
         AppiumDriver driver = new AppiumDriver(url, caps);
+        //New Commit
+        //URL url = new URL("http://127.0.0.1:4723");
     }
 }
